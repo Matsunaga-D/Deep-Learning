@@ -1,0 +1,10 @@
+version:  "3"
+services:
+  datascience-notebook:
+      working_dir: /notebooks
+      image:  jupyter/tensorflow-notebook
+      volumes:
+        - .:/notebooks
+      ports:
+        - 8888:8888
+      container_name: node2vec-notebook-container
