@@ -1,8 +1,7 @@
 .ipynb_checkpoints
 
-#test other implementations
-gcn-master
-GraphSAGE
-
 #data
-reddit
+
+
+#tensorboard
+events.out.tfevents*

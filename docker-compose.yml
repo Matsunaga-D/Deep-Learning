@@ -7,4 +7,5 @@ services:
         - .:/notebooks
       ports:
         - 8888:8888
+        - 5678:5678
       container_name: node2vec-notebook-container
